@@ -10,8 +10,6 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          {/* <Route path="/office-entry-pass" exact element={<OfficeEntryPass />} /> */}
-          {/* <Route path="/chat" exact element={<ChatComponent />} /> */}
         </Routes>
       </div>
     </Router>
