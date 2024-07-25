@@ -11,7 +11,7 @@ describe("DialogflowChat Component", () => {
     const dfMessenger = document.querySelector('df-messenger');
     expect(dfMessenger).toBeInTheDocument();
     expect(dfMessenger).toHaveAttribute("project-id", "lloyds-hack-grp-07");
-    expect(dfMessenger).toHaveAttribute("agent-id", "615a24e6-4164-4b4e-8898-ea26e34ee12c");
+    expect(dfMessenger).toHaveAttribute("agent-id", "dfe92bae-a6c2-45a1-a8d3-d5896bdaa853");
     expect(dfMessenger).toHaveAttribute("language-code", "en");
     expect(dfMessenger).toHaveAttribute("max-query-length", "-1");
   });
