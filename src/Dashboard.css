@@ -1,0 +1,41 @@
+/* Style for centering the entire page content */
+.dashboard-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    box-sizing: border-box;
+    padding: 0 0px; /* Adjust the padding as needed for left and right margins */
+  }
+  
+  /* Flexbox layout for the content */
+  .dashboard-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Spacing between image and text */
+  .image-container {
+    margin-right: 20px; /* Adjust as needed for spacing */
+  }
+  
+  /* Stacking text elements vertically */
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Styling for static text */
+  .static-text {
+    font-size: 36px; /* Adjust font size as needed */
+    font-weight: bold;
+  }
+  
+  /* Styling for animated text */
+  .animated-text {
+    font-size: 24px; /* Adjust font size as needed */
+  }
+  
+
+
