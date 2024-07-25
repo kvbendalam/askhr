@@ -5,7 +5,7 @@ function DialogflowChat() {
     <>
       <df-messenger
         project-id="lloyds-hack-grp-07"
-        agent-id="615a24e6-4164-4b4e-8898-ea26e34ee12c"
+        agent-id="dfe92bae-a6c2-45a1-a8d3-d5896bdaa853"
         language-code="en"
         max-query-length="-1"
       >
